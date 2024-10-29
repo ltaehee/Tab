@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Accordion from './components/Accordion/Accordion';
 import Tab from './components/Tab/Tab'
 
 const DEFAULT_TAB_DATA = [
@@ -26,7 +27,8 @@ function App() {
 
   return (
     <>
-      <Tab data={ DEFAULT_TAB_DATA } />
+      {/* <Tab data={DEFAULT_TAB_DATA} /> */}
+      <Accordion/>
     </>
   )
 }
